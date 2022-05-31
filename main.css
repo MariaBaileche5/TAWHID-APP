@@ -1,0 +1,111 @@
+body{
+background-color:  #C9D6FF;
+font-family: 'Tapestry', cursive;   
+}
+.container{
+width: 50%;
+display: block;
+text-align: center;    
+justify-content: center;
+margin: auto;
+font-family: 'Tapestry', cursive;
+background-color: transparent;
+border-radius: 40px;
+border: solid 3px  #000C40 ;
+
+}
+#subject , #title{
+padding: 5px;
+width: 247px;
+font-size: 15px;  
+margin-bottom: 5px;
+font-family: 'Tapestry', cursive;
+font-weight: bold;
+text-align: center;  
+}
+.container img{
+margin-top: 40px;
+width: 340px;
+border-radius: 75px;    
+}
+.form{
+margin: auto;
+display: block;
+align-items: center;
+justify-content: center;
+width: 330px;
+padding: 15px;
+border-radius: 0 0 15px 15px;
+font-family: 'Tapestry', cursive;  
+background-color: #C9D6FF;  
+}
+input[type="file"]{
+font-size: 15px;
+font-weight: bold; 
+width: 260px;   
+padding: 10px;
+margin-bottom: 5px;
+font-family: 'Tapestry', cursive;  
+color:  #000C40;
+}
+input[type="submit"] {
+font-size: 17px;
+font-weight: bold; 
+width: 260px;   
+padding: 10px;
+margin-bottom: 5px;
+cursor: pointer;
+background-color: #C9D6FF;
+font-family: 'Tapestry', cursive;
+color: #000C40;
+border-radius: 30px;
+border: solid 3px  #000C40 ;
+transition:transform 0.5s;
+}
+input[type="text"]{
+    font-size: 17px;
+    font-weight: bold; 
+    width: 260px;   
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Tapestry', cursive;
+    color: #000C40;
+    border-radius: 30px;
+    border: solid 3px  #000C40 ;
+    outline: none;
+    }
+.linko{
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+color:  #000C40;  
+}
+input[type="submit"]:hover{
+    background-color:  #000C40 ;
+    color: aliceblue ;
+    transform: scale(1.1);
+    letter-spacing:4px;
+}
+.failed{
+color: tomato;
+font-size: 15px;
+font-family: 'Tapestry', cursive;
+}
+.success{
+    color: rgb(27, 85, 49);
+    font-size: 15px;
+    font-family: 'Tapestry', cursive;
+    }
+.choose{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Tapestry', cursive;
+    }    
+    ::placeholder { 
+        color: #000C40 ;
+        opacity: 1; 
+      }
+      
